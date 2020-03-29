@@ -8,7 +8,6 @@ import api from '../../services/api';
 import logoImg from '../../assets/logo.png';
 
 import styles from './styles';
-import api from '../../services/api';
 
 export default function Incidents() {
     const [incidents, setIncidents] = useState([]);
